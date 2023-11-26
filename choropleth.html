@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="utf-8" />
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/> 
+ <link rel="stylesheet" href="css/style.css">
+ 
+ 
+ </head>
+ <body>
+ <div class="header">
+	<img src="img/banner_nasa.png">
+	
+	<nav>
+	<a href="index.html" >Basic Map</a>
+	<a href="choropleth.html"class="active">Choropleth Map</a>
+	<a href="heatmap.html">Heat Map</a>
+	</nav>
+	<h1>Web GIS Application</h1>
+</div>
+
+
+<div class="content">
+	<h2>Choropleth Map</h2>
+	<button onclick="defaultMapSettings()">Default</button>
+	<div id="map"></div>
+</div>
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/leaflet-choropleth@1.1.4/dist/choropleth.js"></script>
+ <script src="js/choropleth.js"></script>
+ </body>
+ <footer>
+	&copy Lakshmi Rajeev Kumar, University of Tartu, 2023
+</footer>
+</html>
